@@ -1,0 +1,50 @@
+name: hyper_market
+description: نظام إدارة سوبرماركت احترافي - هايبر
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # قاعدة بيانات محلية سريعة
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # مسح الباركود والQR
+  mobile_scanner: ^3.5.5
+  
+  # إدارة الحالة
+  provider: ^6.1.1
+  
+  # التاريخ والوقت
+  intl: ^0.18.1
+  
+  # الأيقونات
+  cupertino_icons: ^1.0.6
+  
+  # النسخ الاحتياطي
+  share_plus: ^7.2.1
+  file_picker: ^6.1.1
+  
+  # الإذونات
+  permission_handler: ^11.1.0
+  
+  # التخزين المحلي
+  shared_preferences: ^2.2.2
+  
+  # UI إضافية
+  flutter_slidable: ^3.0.1
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
